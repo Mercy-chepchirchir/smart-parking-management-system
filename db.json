@@ -1,0 +1,64 @@
+{
+    "parkingLots": [
+      {
+        "name": "T-mall parking lot",
+        "availableSpace": 50,
+        "fee": 10,
+        "openingHours": "9:00am - 5:00pm"
+      },
+      {
+        "name": "Harambee Avenue parking lot",
+        "availableSpace": 20,
+        "fee": 5,
+        "openingHours": "24/7"
+      },
+      {
+        "name": "Kencom parking lot",
+        "availableSpace": 30,
+        "fee": 8,
+        "openingHours": "8:00am - 8:00pm"
+      },
+      {
+        "name": "Odeon parking lot",
+        "availableSpace": 10,
+        "fee": 2,
+        "openingHours": "9:00am - 5:00pm"
+      },
+      {
+        "name": "Hilton parking lot",
+        "availableSpace": 15,
+        "fee": 3,
+        "openingHours": "24/7"
+      },
+      {
+        "name": "Afya center parking lot",
+        "availableSpace": 5,
+        "fee": 1,
+        "openingHours": "8:00am - 8:00pm"
+      },
+      {
+        "name": "Jivanjee parking lot",
+        "availableSpace": 40,
+        "fee": 7,
+        "openingHours": "9:00am - 5:00pm"
+      },
+      {
+        "name": "Garden city parking lot",
+        "availableSpace": 25,
+        "fee": 4,
+        "openingHours": "24/7"
+      },
+      {
+        "name": "Moi Avenue parking lot",
+        "availableSpace": 35,
+        "fee": 6,
+        "openingHours": "8:00am - 8:00pm"
+      },
+      {
+        "name": "Archives parking lot",
+        "availableSpace": 45,
+        "fee": 9,
+        "openingHours": "24/7"
+      }
+    ]
+  }
