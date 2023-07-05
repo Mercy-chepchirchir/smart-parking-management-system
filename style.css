@@ -1,0 +1,44 @@
+/* body {
+    margin: 0;
+    padding: 0;
+    background-image:url(https://img.freepik.com/premium-photo/cars-parking-lot-evening-light-sun_150893-219.jpg?w=2000)
+    
+    }
+  .h1 {
+      font-size: 4em;
+      color:black;
+      text-align: center;
+    }
+  .h2 {
+    font-size: 4em;
+    color:black;
+    text-align: center;
+  }
+  
+   div {
+    display: inline
+   }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  ul li {
+    display: inline;
+    margin-right: 10px;
+    
+  }
+
+  #parkname-details{
+    text-align: center;
+    font-size: 20px;
+
+  }
+  .button {
+    display :flex;
+    justify-content: center;
+  }
+
+   */
