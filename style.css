@@ -25,7 +25,7 @@ body {
     text-align: center;
   }
 
-  
+
   ul li {
     display: inline;
     margin-right: 10px;
@@ -37,6 +37,7 @@ body {
     font-size: 20px;
 
   }
+   
   .button {
     display :flex;
     justify-content: center;
