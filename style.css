@@ -1,4 +1,4 @@
-/* body {
+body {
     margin: 0;
     padding: 0;
     background-image:url(https://img.freepik.com/premium-photo/cars-parking-lot-evening-light-sun_150893-219.jpg?w=2000)
@@ -17,7 +17,7 @@
   
    div {
     display: inline
-   
+   }
 
   ul {
     margin: 0;
@@ -41,4 +41,4 @@
     justify-content: center;
   }
 
-   */
+  
