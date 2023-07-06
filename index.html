@@ -5,33 +5,44 @@
     <meta charset="UTF-8">
     <title>SMART PARKING MANAGEMENT SYSTEM</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body> 
-    <h1 class="h1">SMART PARKING MANAGEMENT SYSTEM</h1>
+    <div id="header">
+      <h1 id="h1">SMART PARKING MANAGEMENT SYSTEM</h1>
 
-    <div>
+      <div>
         <ul>
         <li>HOME</li>
         <li>ABOUT</li>
         <li>REGISTER</li>
         <li>LOG IN</li>
         </ul>
+       </div>
     </div>
-    
-        <h2 class="h2">Parking Availability</h2>
-    <div>
-        <ul id="park-name">
-        </ul>
-    </div>
-    <div id="parkname-details">
-        <h3 class="h3">park name-details</h3>
-        <p>Name: <span id="park-name">Harambee Avenue parking lot</span></p>
-        <p>Available spaces: <span id="spaces-remaining">50</span></p>
-        <p>fee: <span id="parking fee">10</span></p>
-        <p>Opening hours: <span id="Opening-hours">9:00am-5:00pm</span></p>
-    <div class="button">
-        <button>BOOK NOW</button>
-    </div>    
+    <h4 id="h4">PARKING AVAILABILITY</h4>
+    <div id="smart-parking-main-box">
+       <div id="park-name-box">
+          <div>
+             <h2>Available parking lots</h2>
+             <div id="park-name">
+               <ul id="park-name">
+               </ul>
+             </div>
+          </div>
+       </div>  
+       <div id="park-name-details-box">
+          <div id="park-name-details">
+             <h3 id="h3">park name details</h3>
+             <p id="name">Name: <span id="parkname">Harambee Avenue parking lot</span></p>
+             <p id="Availablespaces">Available spaces: <span id="spaces-remaining">50</span></p>
+             <p id="Fee">Fee: <span id="parking-fee">10</span></p>
+             <p id="Openinghours">Opening hours: <span id="Opening-hours">9:00am-5:00pm</span></p>
+              <div>
+              <button id="btnBookNow">BOOK NOW</button>
+              </div>   
+          </div>    
+        </div>
     </div>
 
 
