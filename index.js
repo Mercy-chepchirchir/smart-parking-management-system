@@ -4,7 +4,6 @@ fetch("http://localhost:3000/parkingLots")
       console.log(lots);
       displayParkingLots(lots);
   });
-
 function displayParkingLots(lots) {
   const ul = document.getElementById('park-name-list');
 
