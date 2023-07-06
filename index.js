@@ -1,29 +1,28 @@
 fetch("http://localhost:3000/parkingLots")
   .then((resp) => resp.json())
   .then((lots) => {
-    console.log(lots);
-
-    displayParkingLots(lots)
+      console.log(lots);
+      displayParkingLots(lots);
   });
 
-
 function displayParkingLots(lots) {
+  const ul = document.getElementById('park-name-list');
+
   lots.forEach((lot, index) => {
-    const ul = document.getElementById('park-name')
+      const liElement = document.createElement('li');
 
-    const liElement = document.createElement('li')
+      const aElement = document.createElement('a');
+      aElement.textContent = lot.name;
+      aElement.href = '#';
 
-    liElement.innerHTML = `<a href="#">${lot.name}</a>`
+      aElement.addEventListener('click', () => {
+          document.getElementById('parkname').textContent = lot.name;
+          document.getElementById('spaces-remaining').textContent = lot.remainingSpaces;
+          document.getElementById('parking-fee').textContent = lot.fee;
+          document.getElementById('Opening-hours').textContent = lot.openingHours;
+      });
 
-    liElement.addEventListener('click', () => {
-      document.getElementById('parkname').textContent = park.name
-      document.getElementById('spaces-remaining').textContent = spaces.remaining
-      document.getElementById('parking-fee').textContent = parking.fee
-      document.getElementById('Opening-hours').textContent = Opening.hours
-      })
-
-    ul.appendChild(liElement)
-  })
-// book now button 
-// document.getElementById('btnBookNow').addEventListener('click', () => {
+      liElement.appendChild(aElement);
+      ul.appendChild(liElement);
+  });
 }

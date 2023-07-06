@@ -1,83 +1,103 @@
 body {
   margin: 0;
   padding: 0;
-  /* background-image:url(https://img.freepik.com/premium-photo/cars-parking-lot-evening-light-sun_150893-219.jpg?w=2000) */
+}
 
-  }
 #header {
   background-color: aqua;
-}  
+  padding: 10px;
+}
+
+#header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 #h1 {
-    font-size: 4em;
-    color:black;
-    text-align: center;
-  }
-#h4 {
-  font-size: 2em;
-  color:black;
+  font-size: 24px;
+  color: black;
   text-align: center;
+  margin: 0;
 }
-#h3 {
-  font-size: 2em;
-
-}
-
- div {
-  display: inline
- }
 
 ul {
   margin: 0;
   padding: 0;
-  text-align: center;
-  font-size: 2em;
-}
-
-
-ul li {
-  display: inline;
-  margin-right: 10px;
-  
-} 
-#smart-parking-main-box {
-  width: 100%;
+  list-style: none;
   display: flex;
+  justify-content: center;
 }
 
-#park-name-box {
+li {
+  margin-right: 10px;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: hwb(0 2% 98%);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgb(230, 39, 39);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: hsl(0, 0%, 5%);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#smart-parking-main-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#park-name-box,
+#park-name-details-box {
   width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 #park-name-details-box {
-  width: 50%;
- 
-}  
-
-#name {
-  font-size: 2em;
-
-
+  background-color: #f9f9f9;
 }
-#Availablespaces {
-  font-size: 2em;
-  
-}
-#Fee {
-  font-size: 2em;
 
+#park-name-details {
+  text-align: center;
 }
-#Openinghours {
-  font-size: 2em;
-}
- 
-/* #button {
-  display :flex;
-  justify-content: center;
-} */
 
-#park-name {
-  display: block;
-  font-size: 2em;
-  color:black ;
+#h3 {
+  margin-top: 0;
+}
+
+#park-name-list {
+  list-style: none;
+  padding: 0;
+}
+
+#park-name-list li {
+  margin-bottom: 10px;
+}
+
+#btnBookNow {
+  background-color: aqua;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+#home-content {
+  padding: 20px;
 }
