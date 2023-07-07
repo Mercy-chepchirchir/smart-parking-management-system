@@ -5,61 +5,31 @@
     <meta charset="UTF-8">
     <title>SMART PARKING MANAGEMENT SYSTEM</title>
     <link rel="stylesheet" href="style.css">
-    
 </head>
-<body> 
-    <div id="header">
-      <h1 id="h1">Welcome to smart parking management system</h1>
 
-      <div>
-        <ul>
-           <li class="dropdown">
-             <button class="dropbtn">HOME</button>
-             <div class="dropdown-content">
-                <a href="#">available spaces</a>
-                <a href="#">parking details</a>
-                <a href="#">parking time</a>
-             </div>
-          </li>
-          <li>
-            <button id="about">ABOUT </button>
-          </li>
-          <li> 
-            <button id="register">REGISTER </button>
-          </li>
-          <li>
-            <button id="login">LOGIN</button>
-          </li>
-        </ul>
-       </div>
-    </div>
-    <h4 id="h4">PARKING AVAILABILITY</h4>
-    <div id="smart-parking-main-box">
-       <div id="park-name-box">
-          <div>
-             <h2>Available parking lots</h2>
-             <div id="park-name">
-               <ul id="park-name">
-               </ul>
-             </div>
-          </div>
-       </div>  
-       <div id="park-name-details-box">
-          <div id="park-name-details">
-             <h3 id="h3">park name details</h3>
-             <p id="name">Name: <span id="parkname">Harambee Avenue parking lot</span></p>
-             <p id="Availablespaces">Available spaces: <span id="spaces-remaining">50</span></p>
-             <p id="Fee">Fee: <span id="parking-fee">10</span></p>
-             <p id="Openinghours">Opening hours: <span id="Opening-hours">9:00am-5:00pm</span></p>
-              <div>
-              <button id="btnBookNow">BOOK NOW</button>
-              </div>   
-          </div>    
+<body>
+    <div id="header">
+        <div id="header-content">
+            <h1 id="h1">WELCOME TO SMART PARKING MANAGEMENT SYSTEM</h1>
+            <ul>
+                <li class="dropdown">
+                    <button id="home-link" class="dropbtn">HOME</button>
+                    <div class="dropdown-content">
+                        <a id="parking-lots-link" href="#">parking lots</a>
+                        <a id="parking-details-link" href="#">parking details</a>
+                        <a id="parking-time-link" href="#">parking time</a>
+                    </div>
+                </li>
+                <li>ABOUT</li>
+                <li>REGISTER</li>
+                <li>LOG IN</li>
+            </ul>
         </div>
     </div>
+       
+    </div>
+    <div id="home-content"></div>
 
-
-        
     <script src="index.js"></script>
 </body>
 
