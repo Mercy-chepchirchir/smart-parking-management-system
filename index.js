@@ -25,6 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("home-content").innerHTML = content;
   });
 
+  
   function displayParkingLotsList(lots) {
     let tableContent = "<h2>Parking Lots</h2>";
     tableContent += "<table>";
