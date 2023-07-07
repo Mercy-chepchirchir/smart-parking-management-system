@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
     tableContent += "</table>";
     document.getElementById("home-content").innerHTML = tableContent;
 
-    
+
     const bookNowButtons = document.getElementsByClassName("book-now-button");
     Array.from(bookNowButtons).forEach((button) => {
       button.addEventListener("click", (event) => {
@@ -57,6 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function bookParkingLot(lot) {
     const confirmation = confirm(`Do you want to book ${lot.name} with ${lot.availableSpace} spaces remaining at a cost of ${lot.fee}? Opening hours: ${lot.openingHours}`);
     if (confirmation) {
+      
       // Perform the booking process
       const newAvailableSpace = lot.availableSpace - 1; // Reduce the available space by 1
       alert(`Booking confirmed! ${lot.name} booked. Spaces remaining: ${newAvailableSpace}`);
