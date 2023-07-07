@@ -23,9 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("parking-time-link").addEventListener("click", () => {
     let content = "<h2>Parking Time</h2><p>Open daily from 9 a.m to 5 p.m.</p>";
     document.getElementById("home-content").innerHTML = content;
-  });
-
-  
+  })
   function displayParkingLotsList(lots) {
     let tableContent = "<h2>Parking Lots</h2>";
     tableContent += "<table>";
