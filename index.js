@@ -29,6 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
     tableContent += "<table>";
     tableContent += "<tr><th>Name</th><th>Available Space</th><th>Fee</th><th>Opening Hours</th><th></th></tr>";
 
+    
     lots.forEach((lot) => {
       tableContent += "<tr>";
       tableContent += "<td>" + lot.name + "</td>";
