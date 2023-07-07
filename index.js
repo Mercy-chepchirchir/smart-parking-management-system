@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   document.getElementById("parking-lots-link").addEventListener("click", () => {
-    fetch("http://localhost:3000/parkingLots")
+    fetch('https://api.npoint.io/b69cee17b413e9628478/parkingLots')
       .then((resp) => resp.json())
       .then((lots) => {
         displayParkingLotsList(lots);
