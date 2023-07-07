@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://img.buildings.com/files/base/ebm/buildings/image/2022/05/1652201376478-smartparking_hero_1000.png?auto=format,compress&fit=crop&h=278&w=500&q=45");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#header {
+  background-color: aqua;
+  padding: 10px;
+}
+
+#header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#h1 {
+  font-size: 24px;
+  color: black;
+  text-align: center;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin-right: 10px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#home-content {
+  padding: 0px;
+}
+
+#home-content table {
+  width: 50%;
+  border-collapse: collapse;
+}
+
+#home-content th,
+#home-content td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid hsl(0, 0%, 4%);
+}
+
+#home-content th {
+  background-color: hsl(0, 2%, 59%);
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#home-content .book-now-button {
+  padding: 6px 12px;
+  background-color: aqua;
+  color: hwb(0 12% 24%);
+  border: none;
+  cursor:alias;
+}
+
+#home-content .book-now-button:hover {
+  background-color: #1a1b1b;
+}
+
+p {
+  margin: 10px 0;
+  font-size: 2em;
+  line-height: 1.5;
+  font-weight: normal;
+  font-style: italic;
+  width: 50%;
+  
+}
+marquee{
+  color:black;
+  font-weight: bolder;
+  font-style: oblique;
+  
+}

@@ -12,7 +12,7 @@ This website allows booking of your preferred parking lot prior to arrival.
 ## index.html
 Add `h1 `to display the header that is welcome to smart parking management system.Create the button home,about,register and login.Add a dropdown to the home button to display parking lots,parking details and parking time
 ## Index.css
-Used it to syle the film list, image and menu.
+Used it to syle the image,the parking lots name and the book now button.
 
 ## Index.js 
 First fetch this `http://localhost:3000/parkingLots`at then make the db.json file into an object which will return the parking lots. Then add an eventlistener to my parking details so that when clicked it display the park lot name and its details.
